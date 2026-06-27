@@ -1,0 +1,13 @@
+{
+  "date": "2026-06-27",
+  "title": "Example AI Today Pack",
+  "summary": "Replace this sample with the real daily AI current-event summary.",
+  "bodyMarkdown": "### What happened\nWrite the short report here.\n\n### Why it matters\nExplain the reader-facing context.\n\n### What to watch\nAdd the practical next signal.",
+  "caption": "Example caption for X. Replace this with the finished post copy.",
+  "sources": [
+    {
+      "label": "Example source",
+      "url": "https://example.com"
+    }
+  ]
+}
