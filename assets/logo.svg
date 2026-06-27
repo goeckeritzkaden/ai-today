@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">AI Today logo</title>
+  <desc id="desc">A luminous AI Today monogram inside a circular signal mark.</desc>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#9ee7ff"/>
+      <stop offset="0.42" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#101316"/>
+    </radialGradient>
+    <linearGradient id="line" x1="15" y1="112" x2="112" y2="18">
+      <stop offset="0" stop-color="#d7a72f"/>
+      <stop offset="0.5" stop-color="#9ee7ff"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="64" fill="#101316"/>
+  <circle cx="64" cy="64" r="55" fill="url(#g)" opacity="0.92"/>
+  <circle cx="64" cy="64" r="44" fill="none" stroke="rgba(255,255,255,0.32)" stroke-width="2"/>
+  <path d="M27 83c18-5 27-17 37-42 9 25 18 37 37 42" fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45 87h38M64 41v46" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M26 32c18 4 31 4 48-2M78 96c12-4 21-10 28-20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+</svg>
