@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Today digital current-events banner</title>
+  <desc id="desc">A dark editorial technology scene with signal lines and AI Today letterforms.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1318"/>
+      <stop offset="0.48" stop-color="#123b49"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="74%" cy="38%" r="42%">
+      <stop offset="0" stop-color="#9ee7ff" stop-opacity="0.58"/>
+      <stop offset="0.45" stop-color="#1f6feb" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#111316" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7a72f"/>
+      <stop offset="1" stop-color="#9ee7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#pulse)"/>
+  <g opacity="0.13" fill="none" stroke="#fff" stroke-width="2">
+    <path d="M0 710c210-110 407-151 590-124 249 36 404 204 641 185 142-11 263-86 369-179"/>
+    <path d="M0 559c181-75 339-94 473-56 219 63 326 246 558 242 210-4 361-158 569-169"/>
+    <path d="M0 386c166-42 314-39 445 9 188 69 314 218 506 220 243 3 396-226 649-226"/>
+    <path d="M0 236c160-14 297 7 412 62 179 85 300 214 486 214 244 0 373-223 702-261"/>
+  </g>
+  <g opacity="0.18" fill="none" stroke="#d7a72f" stroke-width="3">
+    <path d="M980 164h267l95 96h182"/>
+    <path d="M1010 304h188l74 74h152"/>
+    <path d="M931 456h245l92 92h266"/>
+  </g>
+  <g fill="#fff" opacity="0.1" font-family="Inter, Arial, sans-serif" font-weight="900">
+    <text x="95" y="405" font-size="230">AI</text>
+    <text x="280" y="405" font-size="230">Today</text>
+  </g>
+  <circle cx="1215" cy="254" r="9" fill="#d7a72f"/>
+  <circle cx="1272" cy="378" r="7" fill="#9ee7ff"/>
+  <circle cx="1268" cy="548" r="10" fill="#0f766e"/>
+  <path d="M908 686h410" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+</svg>
