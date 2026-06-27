@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AI Today daily AI current-event briefings, sources, and X post packs.">
+    <title>AI Today</title>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="AI Today home">
+        <img src="assets/logo.svg" alt="">
+        <span>AI Today</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#latest">Latest</a>
+        <a href="#archive">Archive</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="latest" class="hero" aria-labelledby="latest-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/banner.svg" alt="">
+        </div>
+        <div class="hero-content">
+          <p class="kicker" id="latest-date">Daily AI brief</p>
+          <h1 id="latest-title">AI Today</h1>
+          <p id="latest-summary">
+            Daily AI current-event packs will appear here with the full article, caption, creative link, and sources.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" id="latest-link" href="#archive">Read the latest</a>
+            <a class="button secondary" href="#archive">Browse by date</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band article-shell" aria-live="polite">
+        <article class="article" id="article">
+          <p class="section-label">Full article</p>
+          <h2 id="article-title">No AI X Post Packs have been published yet.</h2>
+          <p class="article-meta" id="article-meta">The next completed pack will become the lead story automatically.</p>
+          <div class="article-body" id="article-body">
+            <p>Once a pack is added, this page will show the short report, source links, X caption, and visual link in a clean article view.</p>
+          </div>
+          <section class="caption-box" id="caption-box" hidden>
+            <p class="section-label">X caption</p>
+            <p id="caption-text"></p>
+          </section>
+          <section class="creative-box" id="creative-box" hidden>
+            <p class="section-label">Creative</p>
+            <a id="creative-link" href="#" target="_blank" rel="noopener noreferrer">Open the Canva creative</a>
+          </section>
+          <section id="sources" class="sources">
+            <p class="section-label">Sources</p>
+            <ul id="source-list">
+              <li>Sources will be attached to each completed pack.</li>
+            </ul>
+          </section>
+        </article>
+
+        <aside class="archive-panel" id="archive" aria-labelledby="archive-title">
+          <div class="archive-heading">
+            <p class="section-label">Archive</p>
+            <h2 id="archive-title">Updates by date</h2>
+          </div>
+          <div class="archive-list" id="archive-list"></div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>AI Today publishes concise AI current-event briefs with source links for readers who want the full context behind each X post.</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
